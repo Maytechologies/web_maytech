@@ -129,7 +129,7 @@ a:focus, a:hover {
 
 /* FONDO DE PANTALLA AL RECARGAR */
 #preloader {
-  background: rgb(196, 104, 104);
+  background: rgb(252, 217, 217);
   height: 100%;
   left: 0;
   opacity: 1;
@@ -168,7 +168,7 @@ a:focus, a:hover {
   width: 9px;
   height: 5px;
   border-radius: 5px;
-  background: #fff;
+  background: rgb(121, 120, 120);
   -webkit-animation: preloader 2s infinite ease-in-out;
   animation: preloader 2s infinite ease-in-out;
 }
@@ -235,13 +235,13 @@ a:focus, a:hover {
     height: 30px;
     -webkit-transform: translateY(15px);
     transform: translateY(15px);
-    background: #3498db;
+    background: #db3434;
   }
   50%, 100% {
     height: 5px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    background: #fff;
+    background: rgb(243, 7, 7);
   }
 }
 
@@ -951,9 +951,39 @@ a:focus, a:hover {
 .contact-details .contact-short-info li {
   margin-bottom: 6px;
 }
+/* ======================
+  ICONOS DE REDES SOCIALES
+  ========================= */
+
+.social-icon ul li:hover #face{
+display: block;
+background: rgb(16, 45, 206);
+border: 1px solid rgb(20, 91, 245);
+color: #FFF;
+box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
+}
+
+.social-icon ul li:hover #twit{
+  background: rgb(16, 130, 206);
+  border: 1px solid rgb(20, 155, 245);
+  box-shadow: 0px  2px 1px 0px rgb(109, 216, 248) ;
+  }
+
+  .social-icon ul li:hover #inst{
+    background: rgb(206, 102, 16);
+    border: 1px solid rgb(245, 193, 20);
+    box-shadow: 0px  2px 1px 0px rgb(248, 211, 109) ;
+    }
+
+    .social-icon ul li:hover #yout{
+      background: rgb(206, 16, 16);
+      border: 1px solid rgb(247, 54, 54);
+      box-shadow: 0px  2px 1px 0px rgb(248, 109, 109) ;
+      }
 
 .social-icon {
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .social-icon ul li {
@@ -970,11 +1000,11 @@ a:focus, a:hover {
   text-align: center;
 }
 
-.social-icon ul li a:hover {
+/* .social-icon ul li a:hover {
   background: #28ABE3;
   color: #fff;
   border: 1px solid #28ABE3;
-}
+} */
 
 .social-icon ul li a:hover i {
   color: #fff;
@@ -2041,7 +2071,7 @@ a:focus, a:hover {
 }
 
 .top-footer li a:hover {
-  color: #28ABE3;
+  color: #f5f7f7;
 }
 
 .footer-bottom {
