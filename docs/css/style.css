@@ -2255,6 +2255,11 @@ box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
   .counters-item:before {
     display: none;
   }
+
+  .logo-default{ /* fix height to logo para screen for movil */
+    width: 50%;
+    height: 50%;
+  }
   .clients-logo-slider {
     text-align: center;
   }
