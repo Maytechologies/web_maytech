@@ -2398,7 +2398,7 @@ box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
   .title h2 {
     font-size: 32px;
   }
@@ -2411,8 +2411,9 @@ box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
     width: 70%;
   }
   .logo-default{
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 120px;
+    margin: 5px 5px; 
   }
   /* our team */
   .team-mate {
