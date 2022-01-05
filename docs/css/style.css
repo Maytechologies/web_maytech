@@ -2410,6 +2410,10 @@ box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
     margin: 0 auto 75px;
     width: 70%;
   }
+  .logo-default{
+    height: 150px;
+    width: 150px;
+  }
   /* our team */
   .team-mate {
     margin: 0 auto 30px;
