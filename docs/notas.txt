@@ -1,0 +1,10 @@
+PENDIENTE*******
+
+<!-- ========== Start Section ========== -->
+
+<!-- ========== End Section ========== -->
+
+
+***** COMPLETADO****
+
+AJUSTAR ESTILO REPOSIVE A slick-arrow en pantallas moviles 352px INDEX.

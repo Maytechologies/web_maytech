@@ -2401,7 +2401,9 @@ box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
 @media only screen and (min-width: 350px) and (max-width: 767px) {
 
   .text-slider h1{
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 20px;
+    
   }
   .title h2 {
     font-size: 25px;
@@ -2416,7 +2418,7 @@ box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
   }
   .logo-default{
     height: 50px;
-    width: 120px;
+    width: 138px;
     margin: 5px 5px; 
   }
   /* our team */
@@ -2461,6 +2463,29 @@ box-shadow: 0px  2px 1px 0px rgb(109, 186, 248) ;
   .tab-post-nav li a {
     padding: 10px 15px;
   }
+
+  .slick-arrow {
+    position: absolute;
+    top: 60%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 9;
+    height: 45px;
+    width: 45px;
+    background:none;
+    color: #fff;
+    border: 0;
+    line-height: 10px;
+    font-size: 30px;
+    transition: .2s ease;
+    border-radius: 50%;
+  
+  }
+
+  .slick-arrow:hover{
+    background: none;
+  }
+ 
 }
 
 /*# sourceMappingURL=maps/style.css.map */
